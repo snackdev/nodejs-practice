@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-practice",
+  "version": "1.0.0",
+  "description": "1. Javascript 의 Runtime 으로써 브라우져 외부에서 V8 엔진(크롬의 엔진)을 실행한다.",
+  "main": "plainJSsamples/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.6",
+    "node-fetch": "^3.2.4",
+    "progress": "^2.0.3"
+  }
+}
