@@ -39,3 +39,20 @@
 7. Event Emitter
     - ```Spring Event Queue``` 처럼 활용 가능
     
+8. Server 
+   1. make request
+      1. axios 를 사용할수도 있고, plain NodeJs 를 사용 가능
+   2. get request
+      1. express 활용 가능
+      2. plainNodeJs 를 활용할수 있다.
+         1. ```http.createServer()``` 선언시에 callback 은 모든 request header에 접근 가능하다.
+         2. 단, body는 접근이 불가하여 ```data```, ```end``` 이벤트를 잡아서 처리할 수 있다.
+
+9. File IO
+   1. file descriptor 
+      1. [stats](https://nodejs.dev/learn/nodejs-file-stats)
+   2. flags
+   > ```r+``` open the file for reading and writing, if file doesn't exist it won't be created.    
+   > ```w+``` open the file for reading and writing, positioning the stream at the beginning of the file. The file is created if not existing.   
+   > ```a``` open the file for writing, positioning the stream at the end of the file. The file is created if not existing.  
+   > ```a+``` open the file for reading and writing, positioning the stream at the end of the file. The file is created if not existing.  
